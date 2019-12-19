@@ -6,7 +6,7 @@ variables:
     value: 'docker-hub' # make sure it matches the name you used in the service connection
   
   - name: acrEndpoint
-    value: 'azch' # replace with container registry endpoint
+    value: 'vany0114' # replace with container registry endpoint
 
   - name: tag
     value: '$(Build.BuildId)'
